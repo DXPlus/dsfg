@@ -4,7 +4,7 @@ This project focuses on designing a generic data synchronization mechanism for G
 
 ### Overview of Code Design
 
-
+![](images/overview.png)
 
 #### TopicSync
 
@@ -26,7 +26,7 @@ FSMManager is responsible for managing FSM, adding and deleting FSM, and calling
 
 Each state machine FSM is responsible for downloading a fixed amount of content starting from the start  number. The start number is the unique identifier of the FSM. The FSM class saves its own state attributes and the obtained content. The state transition diagram of FSM is as follows:
 
-
+![](images/fsmstate.png)
 
 #### Fetcher
 
